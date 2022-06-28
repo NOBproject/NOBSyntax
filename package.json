@@ -1,0 +1,25 @@
+{
+    "name": "nob",
+    "displayName": "NOB",
+    "description": "NOB programming language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nob",
+            "aliases": ["NOB", "nob"],
+            "extensions": [".t",".nob"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nob",
+            "scopeName": "main.t",
+            "path": "./syntaxes/nob.tmLanguage.json"
+        }]
+    }
+}
